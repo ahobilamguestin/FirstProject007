@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="css/main.css" rel="stylesheet">
+<script type='text/javascript' src='js/jquery.min.js'></script>
+<script type='text/javascript' src='js/jquery.mousewheel.js'></script>
+<script type='text/javascript' src='js/application.js'></script>
+</head>
+<body>
+<header>
+		<h1 id="title">Lenstagram</h1>
+		<div class="box">
+		<ul id="links">
+			<li class="instructions selected"><a>Steps</a></li>
+			<li class="edit"><a>Edit</a></li>
+			<li class="save"><a>Save</a></li>
+			
+		</ul>
+		
+		
+		
+ <div class="boxTop"></div>
+<div class="boxBody">
+  
+  <div id="instructions" class="show parent">
+   
+    <ul>
+      <li><a><b style="color:#FFA800">Mouse Scroll:</b> To increase or decrease the lens size.</a></li>
+      <li><a><b style="color:#FFA800">Mouse Move:</b> To move the lens.</a></li>
+      <li><a><b style="color:#FFA800">Double click:</b> To place the lens at desired location.</a></li>
+    </ul>  
+  </div>  
+  
+  <div id="edit" class="parent">
+ 
+    <ul>
+      <li><a><img src="img/bluelens.png" class="lensimg"/>Hazel </a></li>
+      <li><a><img src="img/bluelens.png" class="lensimg"/>Blue </a></li>
+      <li><a><img src="img/bluelens.png" class="lensimg"/>Grey</a></li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="boxBottom"></div>
+
+</div>		
+		
+</header>
+
+<div id="container">
+
+<div id="before" class="instructions">
+<p>How do I look with contact lens?</p>
+</div>
+<div class="fileinputs">  
+    <input type="file" id="userfile"  accept="image/*" class="file" />     
+    <div class="fakefile">         
+         <button class="button" id="upload">Upload an Image</button>     
+  </div>
+  
+</div>
+
+<div id="after" class="instructions">
+<p>No registration required.</p>
+
+</div>
+</div>
+<footer>
+
+</footer>
+
+
+</body>
+</html>
