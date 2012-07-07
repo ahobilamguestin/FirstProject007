@@ -1,0 +1,197 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*This where page design starts*/
+header {
+    background-image: url("../img/header.jpg");
+    height: 50px;
+	width:1100px;
+	margin:auto;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	
+}
+#container{
+width:960px;
+margin:auto;
+}
+
+div.fileinputs {     
+    position: relative;
+	
+	margin-left:333px;
+    
+}  
+div.fakefile {     
+    position: absolute;     
+    top: 0px;     
+    left: 0px;     
+    z-index: 1;
+}  
+input.file {
+    position: relative;     
+    text-align: right;     
+    -moz-opacity:0 ;     
+    filter:alpha(opacity: 0);     
+    opacity: 0;     
+    z-index: 2;
+}
+
+.button {
+font-family: Tahoma,Arial;
+color: #cccccc;
+font-size: 25px;
+padding: 10px;
+text-decoration: none;
+-webkit-border-radius: 3px;
+border-radius:3px;
+-moz-border-radius: 3px;
+-webkit-box-shadow: 0px 4px 3px #666666;
+-moz-box-shadow: 0px 4px 3px #666666;
+text-shadow: 1px 1px 3px #666666;
+border: solid #000000 1px;
+background-image: url("../img/header.jpg");
+}
+.button:hover {
+background: #000000;
+cursor:pointer;
+}
+.instructions{
+font-weight:bold;
+}
+#after p{
+ margin-left: 335px;
+    margin-top: 39px;
+	font-size:13px;
+}
+#before{
+height:211px;
+text-align:bottom;
+}
+#some{
+display:block;
+}
+#before p{
+padding-top:188px;
+margin-left:335px;
+font-size:13px;
+}
+#title{
+color:#FFA800;
+font-weight:bold;
+font-size:27px;
+margin-left:15px;
+margin-top:10px;
+float:left;
+}
+.box{
+float:right;
+color:white;
+}
+#links li{
+float:left;
+width:80px;
+
+}
+.toolbar_settings_hide{
+background-image:url("../img/toolbar_btn.png");
+background-position:-158px 0;
+width:30px;
+height:30px;
+}
+#links li a{
+margin-top:30px;
+margin-left:15px;
+display:block;
+font-size:13px;
+}
+#links li.selected a{
+color:#FFA800;
+}
+.lensimg{
+width:30px;
+height:30px;
+vertical-align:middle;
+}
+
+/*For navigation*/
+body{font-family:Tahoma;font-size:20px;color:#ccc;background-color:#555}
+a {color:#ccc;text-decoration:none;font-size:13px;}
+a:hover {color:#ccc;text-decoration:none}
+
+#links {margin:0;padding:0 0 0 15px;list-style:none;}
+#links li {float:left;height:32px;width:57px;cursor:pointer;cursor:hand;background-image:url(../img/toolbar_btn.png);}
+
+li.instructions {background:url(images/toolbar_btn.png) no-repeat -42px 0;}
+li.edit {background:url(images/toolbar_btn.png) no-repeat -236px 0;}
+li.save {background:url(images/toolbar_btn.png) no-repeat -278px 0;}
+
+
+.instructions.selected{
+background-position:-42px -50px;
+}
+.edit.selected{
+background-position:-236px -50px;
+}
+.save.selected{
+background-position:-278px -50px;
+}
+.box {width:227px}
+.boxTop {background:url(../img/boxTop.png) no-repeat;height:11px;clear:both}
+.boxBody {
+margin-top:10px;background-image: url("../img/header.jpg");
+-webkit-border-radius: 3px;
+border-radius:3px;
+-moz-border-radius: 3px;
+}
+.boxBottom {background:url(../img/boxBottom1.gif) no-repeat;height:11px;}
+
+.boxBody div.parent {display:none;}
+.boxBody div.show {display:block;}
+
+.boxBody div ul {margin:0 10px 0 25px;padding:0;width:190px;list-style-image:url(../img/arrow.gif)}
+.boxBody div li {border-bottom1:1px dotted #8e8e8e; padding:4px 0;cursor:hand;cursor:pointer}
+.boxBody div ul li.last {border-bottom:none}
+.boxBody div li span {font-size:8px;font-style:italic; color:#888;}
+/*End Navigation*/
